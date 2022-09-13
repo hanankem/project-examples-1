@@ -8,7 +8,7 @@ node {
     }
 
     stage ('Artifactory configuration') {
-        // Obtain an Artifactory server instance, defined in Jenkins --> Manage Jenkins --> Configure System://
+        // Obtain an Artifactory server instance, defined in Jenkins --> Manage Jenkins --> Configure System:///
         server = Artifactory.server SERVER_ID
         // Host:
         // On OSX: "tcp://127.0.0.1:1234"
